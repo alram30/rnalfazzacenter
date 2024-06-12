@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konter Pulsa & Aksesoris HP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Konter Pulsa & Aksesoris HP</h1>
+    </header>
+    <nav>
+        <a href="#about">Tentang Kami</a>
+        <a href="#services">Layanan</a>
+        <a href="#contact">Hubungi Kami</a>
+        <a href="#order">Pesan Sekarang</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p align="center"> selamat datang di RN Alfazza Cell!
+                <br>
+                Kami adalah pusat pulsa dan aksesori ponsel yang siap memenuhi kebutuhan komunikasi Anda. Dengan dedikasi kami pada kualitas dan pelayanan, kami hadir untuk menjadikan pengalaman Anda dengan ponsel lebih mudah dan menyenangkan.
+                <br>
+                Temukan solusi praktis dan inovatif bersama kami. Raih kemudahan dalam setiap langkah Anda di dunia digital dengan RN Alfazza Cell.</p>
+        </section>
+        <section id="services">
+            <h2>Layanan dan produk</h2>
+            <p>Kami menyediakan berbagai layanan, termasuk:</p>
+            <ul>
+                <li>Pulsa elektronik untuk semua operator</li>
+                <li>Aksesoris handphone, seperti casing, charger, dan earphone</li>
+                <li>Top-up saldo e-wallet</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Hubungi Kami</h2>
+            <p>Jika Anda memiliki pertanyaan atau ingin berkonsultasi, jangan ragu untuk menghubungi kami melalui:</p>
+            <ul>
+                <li>Email: rnalfazza@gmail.com</li>
+                <li>Telepon: 0881-0234-83866</li>
+                <li>Alamat: Cicalengka, Kabupaten Bandung</li>
+            </ul>
+        </section>
+        <section id="order">
+            <h1>Order via WhatsApp</h1>
+    <button onclick="orderViaWhatsApp()">
+        Order via WhatsApp <img src="whatsapp_icon.png" alt="WhatsApp Icon" width="24">
+    </button>
+    <script>
+        function orderViaWhatsApp() {
+            var whatsappNumber = "62881023483866";
+            var message = "Saya ingin memesan di rn alfazza cell.";
+
+            var whatsappUrl = "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(message);
+            window.location.href = whatsappUrl;
+        }
+    </script>
+        </section>
+    </div>
+    <footer>
+        <p>RN Alfazza Cell</p>
+    </footer>
+</body>
+</html>
